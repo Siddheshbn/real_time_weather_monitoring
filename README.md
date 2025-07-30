@@ -13,7 +13,7 @@ This project demonstrates a real-time weather data processing pipeline using:
 
 real_time_weather_monitoring/
 │
-├── producer/ # Produces weather data to Kafka
+├── producer/ # Produces weather data to Kafka \n
 ├── consumer/ # Spark streaming jobs
 ├── consumer/processing_utils/ # Individual processing functions
 ├── config/ # API keys, topic names, etc.
@@ -62,3 +62,9 @@ Requirements
     OpenWeatherMap API key
 
 # real_time_weather_monitoring
+
+command to run the weather app :-
+$SPARK_HOME/bin/spark-submit \
+  --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.2 \
+  /home/<username>/projects/real_time_weather_monitoring/consumer/spark_processor.py
+
