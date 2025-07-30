@@ -11,17 +11,17 @@ This project demonstrates a real-time weather data processing pipeline using:
 
 ## Folder Structure
 
-real_time_weather_monitoring/
-│
-├── producer/ # Produces weather data to Kafka <br>
-├── consumer/ # Spark streaming jobs
-├── consumer/processing_utils/ # Individual processing functions
-├── config/ # API keys, topic names, etc.
-├── utils/ # Helper functions
-├── visualizer/ # Optional dashboard
-├── output/ # Output files
-├── requirements.txt
-└── README.md
+real_time_weather_monitoring/ <br>
+│ <br>
+├── producer/ # Produces weather data to Kafka  <br>
+├── consumer/ # Spark streaming jobs <br>
+├── consumer/processing_utils/ # Individual processing functions <br>
+├── config/ # API keys, topic names, etc. <br>
+├── utils/ # Helper functions <br>
+├── visualizer/ # Optional dashboard <br>
+├── output/ # Output files <br>
+├── requirements.txt <br>
+└── README.md <br>
 
 
 ---
