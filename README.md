@@ -13,7 +13,7 @@ This project demonstrates a real-time weather data processing pipeline using:
 
 real_time_weather_monitoring/
 │
-├── producer/ # Produces weather data to Kafka \n
+├── producer/ # Produces weather data to Kafka <br>
 ├── consumer/ # Spark streaming jobs
 ├── consumer/processing_utils/ # Individual processing functions
 ├── config/ # API keys, topic names, etc.
